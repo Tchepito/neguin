@@ -1,0 +1,1860 @@
+<html dir="ltr" lang="pt-br" xml:lang="pt-br" class="yui3-js-enabled"><head>
+    <title>Análise Dem. Fin.: Envio do exercício </title>
+    <link rel="shortcut icon" href="https://ead.graduacao.fecap.br/theme/image.php/boost/theme/1668690655/favicon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="moodle, Análise Dem. Fin.: Envio do exercício ">
+<link rel="stylesheet" type="text/css" href="https://ead.graduacao.fecap.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css"><script charset="utf-8" id="yui_3_17_2_1_1669914743266_8" src="https://ead.graduacao.fecap.br/theme/yui_combo.php?m/1668690655/core/event/event-min.js&amp;m/1668690655/filter_mathjaxloader/loader/loader-min.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1669914743266_20" src="https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/comment/comment.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1669914743266_21" src="https://ead.graduacao.fecap.br/theme/yui_combo.php?3.17.2/json-stringify/json-stringify-min.js&amp;2in3/2.9.0/build/yui2-animation/yui2-animation-min.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1669914743266_22" src="https://ead.graduacao.fecap.br/theme/yui_combo.php?2in3/2.9.0/build/yui2-yahoo/yui2-yahoo-min.js&amp;2in3/2.9.0/build/yui2-dom/yui2-dom-min.js&amp;2in3/2.9.0/build/yui2-event/yui2-event-min.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1669914743266_38" src="https://ead.graduacao.fecap.br/theme/yui_combo.php?3.17.2/event-mousewheel/event-mousewheel-min.js&amp;3.17.2/event-resize/event-resize-min.js&amp;3.17.2/event-hover/event-hover-min.js&amp;3.17.2/event-touch/event-touch-min.js&amp;3.17.2/event-move/event-move-min.js&amp;3.17.2/event-flick/event-flick-min.js&amp;3.17.2/event-valuechange/event-valuechange-min.js&amp;3.17.2/event-tap/event-tap-min.js" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://ead.graduacao.fecap.br/theme/styles.php/boost/1668690655_1/all">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/ead.graduacao.fecap.br","sesskey":"SAS6GkvVOr","sessiontimeout":"7200","themerev":"1668690655","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1668690655","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/S\u00e3o_Paulo","contextid":574211,"langrev":1669446910,"templaterev":"1668690655"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/ead.graduacao.fecap.br\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/ead.graduacao.fecap.br\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/ead.graduacao.fecap.br\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/ead.graduacao.fecap.br\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/ead.graduacao.fecap.br\/theme\/yui_combo.php?m\/1668690655\/","combine":true,"comboBase":"https:\/\/ead.graduacao.fecap.br\/theme\/yui_combo.php?","ext":false,"root":"m\/1668690655\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/ead.graduacao.fecap.br\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/ead.graduacao.fecap.br\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1668690655\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/ead.graduacao.fecap.br\/lib\/javascript.php\/1668690655\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/ead.graduacao.fecap.br\/lib\/javascript.php\/1668690655\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3HFH8163SH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3HFH8163SH');
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="https://ead.graduacao.fecap.br/lib/requirejs.php/1668690655/core/first.js"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/jquery/jquery-3.4.1.min.js"></script></head>
+<body id="page-mod-assign-view" class="format-topics path-mod path-mod-assign chrome dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam ead-graduacao-fecap-br pagelayout-incourse course-26362 context-574211 cmid-423370 category-11720222 jsenabled">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Ir para o conteúdo principal</a>
+</div><script src="https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/polyfills/polyfill.js"></script>
+<script src="https://ead.graduacao.fecap.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Navegação no site">
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"></i><span class="sr-only">Painel lateral</span></button>
+            </div>
+    
+            <a href="https://ead.graduacao.fecap.br" class="navbar-brand aabtn has-logo
+                    ">
+                    <span class="logo d-none d-sm-inline">
+                        <img src="https://ead.graduacao.fecap.br/pluginfile.php/1/core_admin/logocompact/300x300/1668690655/LOGO%20OFICIAL%20VERDE.png" alt="Graduação FECAP">
+                    </span>
+                <span class="site-name d-none d-md-inline">Graduação FECAP</span>
+            </a>
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-6388e0736ad506388e07369ca34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" title="Idioma" aria-controls="drop-down-menu-6388e0736ad506388e07369ca34">
+        Português - Brasil ‎(pt_br)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-6388e0736ad506388e07369ca34" aria-labelledby="drop-down-6388e0736ad506388e07369ca34">
+                <a class="dropdown-item" role="menuitem" href="https://ead.graduacao.fecap.br/mod/assign/view.php?id=423370&amp;rownum=0&amp;useridlistid=6388e0735a57a380604714&amp;action&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://ead.graduacao.fecap.br/mod/assign/view.php?id=423370&amp;rownum=0&amp;useridlistid=6388e0735a57a380604714&amp;action&amp;lang=pt_br" title="Português - Brasil ‎(pt_br)‎">Português - Brasil ‎(pt_br)‎</a>
+    </div>
+</li>
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="d-none d-lg-block">
+                    
+                </li>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                    <div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="18191" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" role="button" aria-controls="popover-region-container-6388e0736b3996388e07369ca35" aria-haspopup="true" aria-label="Mostrar janela de notificações sem as novas notificações" tabindex="0">
+                <i class="icon fa fa-bell fa-fw " title="Alternar menu de notificações" aria-label="Alternar menu de notificações"></i>
+        <div class="count-container hidden" data-region="count-container" aria-label="Há 0 notificações não lidas">0</div>
+
+    </div>
+    <div id="popover-region-container-6388e0736b3996388e07369ca35" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Janela de notificação" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notificações</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="#" title="Marcar tudo como lido" data-action="mark-all-read" role="button" aria-label="Marcar tudo como lido">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true"></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+        </a>
+        <a href="https://ead.graduacao.fecap.br/message/notificationpreferences.php?userid=18191" title="Preferências de notificação" aria-label="Preferências de notificação">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Você não tem nenhuma notificação</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+        </div>
+                <a class="see-all-link" href="https://ead.graduacao.fecap.br/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Mostrar todos</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed" data-region="popover-region-messages">
+    <a id="message-drawer-toggle-6388e0736bda06388e07369ca36" class="nav-link d-inline-block popover-region-toggle position-relative" href="#" role="button">
+        <i class="icon fa fa-comment fa-fw " title="Alternar menu de mensagens" aria-label="Alternar menu de mensagens"></i>
+        <div class="count-container " data-region="count-container" aria-label="Há 8 conversas não lidas">8</div>
+    </a>
+    <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="Menu do usuário" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext mr-1">Raphael Clerici Drukier</span><span class="avatars"><span class="avatar current"><img src="https://ead.graduacao.fecap.br/theme/image.php/boost/core/1668690655/u/f2" class="userpicture defaultuserpic" width="35" height="35" aria-hidden="true"></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                        <a href="https://ead.graduacao.fecap.br/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Painel
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://ead.graduacao.fecap.br/user/profile.php?id=18191" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Perfil
+                                            </span>
+                                        </a>
+                                        <a href="https://ead.graduacao.fecap.br/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Notas
+                                            </span>
+                                        </a>
+                                        <a href="https://ead.graduacao.fecap.br/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa fa-comment fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Mensagens
+                                            </span>
+                                        </a>
+                                        <a href="https://ead.graduacao.fecap.br/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa fa-wrench fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Preferências
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://ead.graduacao.fecap.br/login/logout.php?sesskey=SAS6GkvVOr" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                Sair
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group" aria-label="Análise Dem. Fin.">
+            <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://ead.graduacao.fecap.br/course/view.php?id=26362" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Análise Dem. Fin.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://ead.graduacao.fecap.br/user/index.php?id=26362" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="26362">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-users fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Participantes</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://ead.graduacao.fecap.br/grade/report/index.php?id=26362" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="26362">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-table fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Notas</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    </ul>
+                    </nav>
+                    <nav class="list-group mt-1" aria-label="Site">
+                    <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://ead.graduacao.fecap.br/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Painel</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://ead.graduacao.fecap.br/calendar/view.php?view=month&amp;course=26362" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Calendário</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://ead.graduacao.fecap.br/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Arquivos privados</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="page" class="container-fluid d-print-block">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-sm-flex align-items-center">
+                    <div class="mr-auto">
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Análise das Demonstrações Financeiras</h1></div></div>
+                    </div>
+
+                    <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav aria-label="Barra de navegação">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/my/">Painel</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/index.php">Cursos</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/index.php?categoryid=1">FECAP</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/index.php?categoryid=3">Graduação</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/index.php?categoryid=20222">2022-2</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/index.php?categoryid=11320222">Eixo Comum - Adm, Cc, Ccg E Ce (Graduação)</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/index.php?categoryid=11720222">2MAEC_S</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/course/view.php?id=26362" title="Análise das Demonstrações Financeiras">Análise Dem. Fin.</a>
+                </li>
+        
+                <li class="breadcrumb-item">Semana 13: 03/11/2022 - Estudo do capital de giro (parte I)</li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ead.graduacao.fecap.br/mod/assign/view.php?id=423370" aria-current="page" title="Tarefa">Envio do exercício </a>
+                </li>
+        </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row pb-3 d-print-block">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main" aria-label="Conteúdo">
+
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main" id="yui_3_17_2_1_1669914743266_45"><span id="maincontent"></span><h2>Envio do exercício </h2><div id="intro" class="box py-3 generalbox boxaligncenter"></div><div class="submissionstatustable" id="yui_3_17_2_1_1669914743266_44"><h3>Status de envio</h3><div class="box py-3 boxaligncenter submissionsummarytable" id="yui_3_17_2_1_1669914743266_43"><table class="generaltable" id="yui_3_17_2_1_1669914743266_42">
+<tbody id="yui_3_17_2_1_1669914743266_41"><tr class="">
+<th class="cell c0" style="" scope="row">Status de envio</th>
+<td class="cell c1 lastcol" style="">Nenhuma tentativa</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Status da avaliação</th>
+<td class="submissionnotgraded cell c1 lastcol" style="">Não há notas</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Data de entrega</th>
+<td class="cell c1 lastcol" style="">quarta, 9 Nov 2022, 23:59</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Tempo restante</th>
+<td class="overdue cell c1 lastcol" style=""><font color="red">A tarefa está atrasada há: 4 minutos 11 segundos </font></td>
+</tr>
+<tr class="" id="yui_3_17_2_1_1669914743266_40">
+<th class="cell c0" style="" scope="row">Última modificação</th>
+<td class="cell c1 lastcol" style="" id="yui_3_17_2_1_1669914743266_39">-</td>
+</tr>
+<tr class="lastrow" id="yui_3_17_2_1_1669914743266_47">
+<th class="cell c0" style="" scope="row">Comentários sobre o envio</th>
+<td class="cell c1 lastcol" style="" id="yui_3_17_2_1_1669914743266_46"><div class="box py-3 boxaligncenter plugincontentsummary summary_assignsubmission_comments_554353"><div class="commentscontainer"><div style="display:none" id="cmt-tmpl"><div class="comment-message"><div class="comment-message-meta mr-3"><span class="picture">___picture___</span><span class="user">___name___</span> - <span class="time">___time___</span></div><div class="text">___content___</div></div></div><div class="mdl-left"><a class="showcommentsnonjs" href="https://ead.graduacao.fecap.br/mod/assign/view.php?id=423370&amp;rownum=0&amp;useridlistid=6388e0735a57a380604714&amp;action&amp;nonjscomment=1&amp;comment_itemid=554353&amp;comment_context=574211&amp;comment_component=assignsubmission_comments&amp;comment_area=submission_comments">Mostrar comentários</a><a class="comment-link" id="comment-link-6388e073727a3" href="#" role="button" aria-expanded="false"><i class="icon fa fa-caret-right fa-fw " title="Comentários" aria-label="Comentários"></i><span id="comment-link-text-6388e073727a3">Comentários (0)</span></a><div id="comment-ctrl-6388e073727a3" class="comment-ctrl"><ul id="comment-list-6388e073727a3" class="comment-list"><li class="first"></li></ul><div id="comment-pagination-6388e073727a3" class="comment-pagination"></div><div class="comment-area"><div class="db"><textarea name="content" rows="2" id="dlg-content-6388e073727a3" aria-label="Adicionar um comentário..." cols="20" style="color: grey;"></textarea></div><div class="fd" id="comment-action-6388e073727a3"><a id="comment-action-post-6388e073727a3" href="#">Salvar comentário</a><span> | </span><a id="comment-action-cancel-6388e073727a3" href="#">Cancelar</a></div></div><div class="clearer"></div></div></div></div></div></td>
+</tr>
+</tbody>
+</table>
+</div></div></div>
+                    <div class="mt-5 mb-1 activity-navigation container-fluid">
+<div class="row">
+    <div class="col-md-4">        <div class="float-left">
+                <a href="https://ead.graduacao.fecap.br/mod/resource/view.php?id=424430&amp;forceview=1" id="prev-activity-link" class="btn btn-link" title="Nona lista de exercícios - resolução">◄ Nona lista de exercícios - resolução</a>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://ead.graduacao.fecap.br/course/jumpto.php" class="form-inline" id="url_select_f6388e07369ca315">
+        <input type="hidden" name="sesskey" value="SAS6GkvVOr">
+            <label for="jump-to-activity" class="sr-only">
+                Seguir para...
+            </label>
+        <select id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected="">Seguir para...</option>
+                    <option value="/mod/resource/view.php?id=407250&amp;forceview=1">Plano_de_ensino</option>
+                    <option value="/mod/resource/view.php?id=407255&amp;forceview=1">Plano_de_aula_detalhado</option>
+                    <option value="/mod/resource/view.php?id=407263&amp;forceview=1">Apresentação_do_curso_ADF</option>
+                    <option value="/mod/resource/view.php?id=408751&amp;forceview=1">Primeira_lista_de_exemplo_enunciado</option>
+                    <option value="/mod/resource/view.php?id=408750&amp;forceview=1">Primeira_lista_de_exemplo_resolução</option>
+                    <option value="/mod/quiz/view.php?id=409010&amp;forceview=1">Primeira lista de exercício - questionário</option>
+                    <option value="/mod/resource/view.php?id=410014&amp;forceview=1">Segunda lista de exemplo enunciado</option>
+                    <option value="/mod/resource/view.php?id=410015&amp;forceview=1">Segunda lista de exemplo resolução</option>
+                    <option value="/mod/resource/view.php?id=411003&amp;forceview=1">Segunda lista de exercícios enunciado</option>
+                    <option value="/mod/resource/view.php?id=411004&amp;forceview=1">Segunda lista de exercícios enunciado</option>
+                    <option value="/mod/assign/view.php?id=411005&amp;forceview=1">Envio do exercício (até 31/08 - 23h59)</option>
+                    <option value="/mod/resource/view.php?id=411006&amp;forceview=1">Aula_semana_3_parte_II</option>
+                    <option value="/mod/resource/view.php?id=411007&amp;forceview=1">Aula_semana_3_parte_I</option>
+                    <option value="/mod/resource/view.php?id=411178&amp;forceview=1">Exemplo Demonstrações Financeiras Natura</option>
+                    <option value="/mod/resource/view.php?id=411177&amp;forceview=1">Exemplo opinião abstenção</option>
+                    <option value="/mod/resource/view.php?id=411175&amp;forceview=1">Exemplo opinião ressalva</option>
+                    <option value="/mod/resource/view.php?id=411176&amp;forceview=1">Exemplo opinião adversa</option>
+                    <option value="/mod/resource/view.php?id=412567&amp;forceview=1">Aula semana 4</option>
+                    <option value="/mod/resource/view.php?id=412574&amp;forceview=1">Terceira_lista_de_exemplo_enunciado</option>
+                    <option value="/mod/resource/view.php?id=412575&amp;forceview=1">Terceira_lista_de_exemplo_enunciado</option>
+                    <option value="/mod/resource/view.php?id=413169&amp;forceview=1">Terceira_lista_de_exemplo_resolução</option>
+                    <option value="/mod/resource/view.php?id=412573&amp;forceview=1">Exemplo Alpargatas 1</option>
+                    <option value="/mod/resource/view.php?id=412568&amp;forceview=1">Exemplo Alpargatas 2</option>
+                    <option value="/mod/resource/view.php?id=412572&amp;forceview=1">Exemplo Gerdau 1</option>
+                    <option value="/mod/resource/view.php?id=412569&amp;forceview=1">Exemplo Gerdau 2</option>
+                    <option value="/mod/resource/view.php?id=412571&amp;forceview=1">Exemplo Localiza 1</option>
+                    <option value="/mod/resource/view.php?id=412570&amp;forceview=1">Exemplo Localiza 2</option>
+                    <option value="/mod/resource/view.php?id=412576&amp;forceview=1">Terceira_lista_de_exercícios_enunciado</option>
+                    <option value="/mod/resource/view.php?id=412577&amp;forceview=1">Terceira_listas_de_exercícios_enunciado</option>
+                    <option value="/mod/assign/view.php?id=413170&amp;forceview=1">Envio do exercício (até 07/09 - 23h59)</option>
+                    <option value="/mod/resource/view.php?id=415801&amp;forceview=1">Terceira lista de exercício resolução</option>
+                    <option value="/mod/resource/view.php?id=415802&amp;forceview=1">Terceira lista de exercícios resolução</option>
+                    <option value="/mod/resource/view.php?id=415665&amp;forceview=1">Aula 4</option>
+                    <option value="/mod/resource/view.php?id=415662&amp;forceview=1">Exemplo 1 Hering</option>
+                    <option value="/mod/resource/view.php?id=415663&amp;forceview=1">Exemplo 2 Dias Branco</option>
+                    <option value="/mod/resource/view.php?id=415664&amp;forceview=1">Exemplo 3 BRF</option>
+                    <option value="/mod/resource/view.php?id=415661&amp;forceview=1">Quarta lista de exemplos enunciado</option>
+                    <option value="/mod/resource/view.php?id=415660&amp;forceview=1">Quarta lista de exemplo enunciado</option>
+                    <option value="/mod/resource/view.php?id=415994&amp;forceview=1">Quarta lista de exemplo resolução</option>
+                    <option value="/mod/assign/view.php?id=416653&amp;forceview=1">Entrega do exercício</option>
+                    <option value="/mod/resource/view.php?id=416655&amp;forceview=1">Quarta lista de exercícios enunciado</option>
+                    <option value="/mod/resource/view.php?id=419404&amp;forceview=1">Quarta lista de exercícios resolução </option>
+                    <option value="/mod/resource/view.php?id=419459&amp;forceview=1">Quarta lista de exercício resolução</option>
+                    <option value="/mod/resource/view.php?id=417184&amp;forceview=1">Aula 5</option>
+                    <option value="/mod/resource/view.php?id=417185&amp;forceview=1">Exemplo - Natura</option>
+                    <option value="/mod/resource/view.php?id=417186&amp;forceview=1">Exemplo - Embraer</option>
+                    <option value="/mod/resource/view.php?id=417187&amp;forceview=1">Exemplo - Locaweb</option>
+                    <option value="/mod/resource/view.php?id=417188&amp;forceview=1">Artigo_efeitos_da_inflação</option>
+                    <option value="/mod/resource/view.php?id=417870&amp;forceview=1">Quinta lista de exercícios enunciado</option>
+                    <option value="/mod/resource/view.php?id=418380&amp;forceview=1">Quinta lista de exercícios resolução</option>
+                    <option value="/mod/assign/view.php?id=418378&amp;forceview=1">Envio do exercício</option>
+                    <option value="/mod/resource/view.php?id=420734&amp;forceview=1">Aula_semana_10 parte I</option>
+                    <option value="/mod/resource/view.php?id=422819&amp;forceview=1">Aula semana 10 parte II</option>
+                    <option value="/mod/resource/view.php?id=420735&amp;forceview=1">Exemplo_CCR</option>
+                    <option value="/mod/resource/view.php?id=420736&amp;forceview=1">Exemplo_Hering</option>
+                    <option value="/mod/resource/view.php?id=420733&amp;forceview=1">Quinta_lista_de_exemplo_enunciado</option>
+                    <option value="/mod/resource/view.php?id=420732&amp;forceview=1">Quinta_lista_de_exemplo_enunciado</option>
+                    <option value="/mod/resource/view.php?id=421470&amp;forceview=1">Quinta_lista_de_exemplo_resolução</option>
+                    <option value="/mod/resource/view.php?id=421468&amp;forceview=1">Sexta lista de exercícios - enunciado</option>
+                    <option value="/mod/resource/view.php?id=422283&amp;forceview=1">Sexta lista de exercícios - resolução</option>
+                    <option value="/mod/assign/view.php?id=421469&amp;forceview=1">Envio da sexta lista de exercícios</option>
+                    <option value="/mod/resource/view.php?id=422086&amp;forceview=1">Aula_semana_11</option>
+                    <option value="/mod/resource/view.php?id=422092&amp;forceview=1">Sexta lista de exemplos - enunciado</option>
+                    <option value="/mod/resource/view.php?id=422091&amp;forceview=1">Sexta lista de exemplo - enunciado</option>
+                    <option value="/mod/resource/view.php?id=422666&amp;forceview=1">Sexta lista de exemplo - resolução</option>
+                    <option value="/mod/resource/view.php?id=422815&amp;forceview=1">Sétima lista de exercícios - enunciado </option>
+                    <option value="/mod/resource/view.php?id=425230&amp;forceview=1">Sétima lista de exercícios - resolução</option>
+                    <option value="/mod/resource/view.php?id=422814&amp;forceview=1">Oitava lista de exercícios - enunciado </option>
+                    <option value="/mod/resource/view.php?id=425228&amp;forceview=1">Oitava lista de exercícios - resolução </option>
+                    <option value="/mod/assign/view.php?id=422812&amp;forceview=1">Envio da sétima lista de exercícios</option>
+                    <option value="/mod/assign/view.php?id=422813&amp;forceview=1">Envio da oitava lista de exercícios </option>
+                    <option value="/mod/resource/view.php?id=423363&amp;forceview=1">Aula semana 13</option>
+                    <option value="/mod/resource/view.php?id=423362&amp;forceview=1">Sétima lista de exemplo - enunciado </option>
+                    <option value="/mod/resource/view.php?id=423369&amp;forceview=1">Sétima lista de exemplo - resolução</option>
+                    <option value="/mod/resource/view.php?id=423364&amp;forceview=1">Grupo-Carrefour-Brasil-Demonstracoes-Financeiras-31.12.2021-1</option>
+                    <option value="/mod/resource/view.php?id=423721&amp;forceview=1">Nona lista de exercícios - enunciado</option>
+                    <option value="/mod/resource/view.php?id=424430&amp;forceview=1">Nona lista de exercícios - resolução</option>
+                    <option value="/mod/resource/view.php?id=424008&amp;forceview=1">Aula semana 14</option>
+                    <option value="/mod/resource/view.php?id=424006&amp;forceview=1">Oitava lista de exemplo - enunciado</option>
+                    <option value="/mod/resource/view.php?id=425235&amp;forceview=1">Oitava lista de exemplo - resolução</option>
+                    <option value="/mod/resource/view.php?id=424007&amp;forceview=1">Décima lista de exercícios - enunciado</option>
+                    <option value="/mod/resource/view.php?id=424429&amp;forceview=1">Décima lista de exercícios - resolução</option>
+                    <option value="/mod/assign/view.php?id=424009&amp;forceview=1">Envio do exercício</option>
+                    <option value="/mod/resource/view.php?id=424352&amp;forceview=1">Aula semana 15</option>
+                    <option value="/mod/resource/view.php?id=424350&amp;forceview=1">Nona lista de exemplo - enunciado</option>
+                    <option value="/mod/resource/view.php?id=424348&amp;forceview=1">Nona lista de exemplo - enunciado</option>
+                    <option value="/mod/resource/view.php?id=425229&amp;forceview=1">Nona lista de exemplo - resolução</option>
+                    <option value="/mod/quiz/view.php?id=424431&amp;forceview=1">Décima primeira lista de exercícios</option>
+                    <option value="/mod/resource/view.php?id=424480&amp;forceview=1">Décima primeira lista de exercícios resolução</option>
+                    <option value="/mod/assign/view.php?id=424855&amp;forceview=1">Envio do exercício (até 25/11 - 23h59)</option>
+                    <option value="/mod/resource/view.php?id=424856&amp;forceview=1">Décima segunda lista de exercícios - enunciado</option>
+                    <option value="/mod/resource/view.php?id=425231&amp;forceview=1">Décima segunda lista de exercícios - resolução</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary ml-1" value="Vai">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="float-right">
+                <a href="https://ead.graduacao.fecap.br/mod/resource/view.php?id=424008&amp;forceview=1" id="next-activity-link" class="btn btn-link" title="Aula semana 14">Aula semana 14 ►</a>
+
+        </div>
+</div>
+</div>
+</div>
+                    
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="drawer-6388e0736db0b6388e07369ca316" class=" drawer bg-white hidden" aria-expanded="false" aria-hidden="true" data-region="right-hand-drawer" role="region" tabindex="0">
+            <div id="message-drawer-6388e0736db0b6388e07369ca316" class="message-app" data-region="message-drawer" role="region">
+            <div class="closewidget bg-light border-bottom text-right">
+                <a class="text-dark" data-action="closedrawer" href="#">
+                     <i class="icon fa fa-window-close fa-fw " title="Fechar" aria-label="Fechar"></i>
+                </a>
+            </div>
+            <div class="header-container position-relative" data-region="header-container">
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-contacts">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch">
+                            <a class="h-100 d-flex align-items-center mr-2" href="#" data-route-back="" role="button">
+                                <div class="icon-back-in-drawer">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                                </div>
+                                <div class="icon-back-in-app">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"></i></span>
+                                </div>                            </a>
+                        </div>
+                        <div>
+                            Contatos
+                        </div>
+                        <div class="ml-auto">
+                            <a href="#" data-route="view-search" role="button" aria-label="Pesquisar">
+                                <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <div class="hidden bg-white position-relative border-bottom p-1 p-sm-2" aria-hidden="true" data-region="view-conversation">
+                    <div class="hidden" data-region="header-content"></div>
+                    <div class="hidden" data-region="header-edit-mode">
+                        
+                        <div class="d-flex p-2 align-items-center">
+                            Mensagens selecionadas:
+                            <span class="ml-1" data-region="message-selected-court">1</span>
+                            <button type="button" class="ml-auto close" aria-label="Cancelar seleção de mensagem" data-action="cancel-edit-mode">
+                                    <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div data-region="header-placeholder">
+                        <div class="d-flex">
+                            <div class="ml-2 rounded-circle bg-pulse-grey align-self-center" style="height: 38px; width: 38px">
+                            </div>
+                            <div class="ml-2 " style="flex: 1">
+                                <div class="mt-1 bg-pulse-grey w-75" style="height: 16px;">
+                                </div>
+                            </div>
+                            <div class="ml-2 bg-pulse-grey align-self-center" style="height: 16px; width: 20px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; bottom: -1px; right: 0; left: 0; background: rgba(0,0,0,0.3);"></div>
+                </div>                <div class="border-bottom  p-1 px-sm-2 py-sm-3" aria-hidden="false" data-region="view-overview">
+                    <div class="d-flex align-items-center">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text pr-2 bg-white">
+                                    <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control border-left-0" placeholder="Pesquisar" aria-label="Pesquisar" data-region="view-overview-search-input">
+                        </div>
+                        <div class="ml-2">
+                            <a href="#" data-route="view-settings" data-route-param="18191" aria-label="Preferências" role="button">
+                                <i class="icon fa fa-cog fa-fw " aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-right mt-sm-3">
+                        <a href="#" data-route="view-contacts" role="button">
+                            <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
+                            Contatos
+                            <span class="badge badge-primary bg-primary ml-2 hidden" data-region="contact-request-count" aria-label="Há 0 solicitações de contato">
+                                0
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hidden border-bottom px-2 py-3 view-search" aria-hidden="true" data-region="view-search">
+                    <div class="d-flex align-items-center">
+                        <a class="mr-2 align-self-stretch d-flex align-items-center" href="#" data-route-back="" data-action="cancel-search" role="button">
+                            <div class="icon-back-in-drawer">
+                                <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                                <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                            </div>
+                            <div class="icon-back-in-app">
+                                <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"></i></span>
+                            </div>                        </a>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar" data-region="search-input">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" data-action="search" aria-label="Pesquisar">
+                                    <span data-region="search-icon-container">
+                                        <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                    <span class="hidden" data-region="loading-icon-container">
+                                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-settings">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch">
+                            <a class="h-100 d-flex mr-2 align-items-center" href="#" data-route-back="" role="button">
+                                <div class="icon-back-in-drawer">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                                </div>
+                                <div class="icon-back-in-app">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"></i></span>
+                                </div>                            </a>
+                        </div>
+                        <div>
+                            Configurações
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-container position-relative" data-region="body-container">
+                
+                <div class="hidden" data-region="view-contact" aria-hidden="true">
+                    <div class="p-2 pt-3" data-region="content-container"></div>
+                </div>                <div class="hidden h-100" data-region="view-contacts" aria-hidden="true" data-user-id="18191">
+                    <div class="d-flex flex-column h-100">
+                        <div class="p-3 border-bottom">
+                            <ul class="nav nav-pills nav-fill" role="tablist">
+                                <li class="nav-item">
+                                    <a id="contacts-tab-6388e0736db0b6388e07369ca316" class="nav-link active" href="#contacts-tab-panel-6388e0736db0b6388e07369ca316" data-toggle="tab" data-action="show-contacts-section" role="tab" aria-controls="contacts-tab-panel-6388e0736db0b6388e07369ca316" aria-selected="true">
+                                        Contatos
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="requests-tab-6388e0736db0b6388e07369ca316" class="nav-link" href="#requests-tab-panel-6388e0736db0b6388e07369ca316" data-toggle="tab" data-action="show-requests-section" role="tab" aria-controls="requests-tab-panel-6388e0736db0b6388e07369ca316" aria-selected="false">
+                                        Solicitações
+                                        <span class="badge badge-primary bg-primary ml-2 hidden" data-region="contact-request-count" aria-label="Há 0 solicitações de contato">
+                                            0
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content d-flex flex-column h-100">
+                                            <div class="tab-pane fade show active h-100 lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="18191" id="contacts-tab-panel-6388e0736db0b6388e07369ca316" data-section="contacts" role="tabpanel" aria-labelledby="contacts-tab-6388e0736db0b6388e07369ca316">
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        Sem contatos
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                    </div>
+                </div>
+                
+                                            <div class="tab-pane fade h-100 lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="18191" id="requests-tab-panel-6388e0736db0b6388e07369ca316" data-section="requests" role="tabpanel" aria-labelledby="requests-tab-6388e0736db0b6388e07369ca316">
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        Sem solicitações de contatos
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="view-conversation hidden h-100" aria-hidden="true" data-region="view-conversation" data-user-id="18191" data-midnight="1669863600" data-message-poll-min="10" data-message-poll-max="120" data-message-poll-after-max="300" style="overflow-y: auto; overflow-x: hidden">
+                    <div class="position-relative h-100" data-region="content-container" style="overflow-y: auto; overflow-x: hidden">
+                        <div class="content-message-container hidden h-100 px-2 pt-0" data-region="content-message-container" role="log" style="overflow-y: auto; overflow-x: hidden">
+                            <div class="py-3 sticky-top z-index-1 border-bottom text-center hidden" data-region="contact-request-sent-message-container">
+                                <p class="m-0">Solicitação de contato enviado</p>
+                                <p class="font-italic font-weight-light" data-region="text"></p>
+                            </div>
+                            <div class="p-3 text-center hidden" data-region="self-conversation-message-container">
+                                <p class="m-0">Espaço pessoal</p>
+                                <p class="font-italic font-weight-light" data-region="text">Salve rascunhos de mensagens, links, notas etc. para acessar mais tarde.</p>
+                           </div>
+                            <div class="hidden text-center p-3" data-region="more-messages-loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</div>
+                        </div>
+                        <div class="p-4 w-100 h-100 hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
+                            
+                            <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
+                                <p class="text-muted" data-region="dialogue-text"></p>
+                                <div class="mb-2 custom-control custom-checkbox hidden" data-region="delete-messages-for-all-users-toggle-container">
+                                    <input type="checkbox" class="custom-control-input" id="delete-messages-for-all-users" data-region="delete-messages-for-all-users-toggle">
+                                    <label class="custom-control-label text-muted" for="delete-messages-for-all-users">
+                                        Excluir para mim e para todos os outros
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-block">
+                                    <span data-region="dialogue-button-text">Bloco</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-unblock">
+                                    <span data-region="dialogue-button-text">Desbloquear</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-remove-contact">
+                                    <span data-region="dialogue-button-text">Remover</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-add-contact">
+                                    <span data-region="dialogue-button-text">Adicionar</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-selected-messages">
+                                    <span data-region="dialogue-button-text">Excluir</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-conversation">
+                                    <span data-region="dialogue-button-text">Excluir</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="request-add-contact">
+                                    <span data-region="dialogue-button-text">Enviar solicitação de contato</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="accept-contact-request">
+                                    <span data-region="dialogue-button-text">Aceitar e adicionar aos contatos</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-block hidden" data-action="decline-contact-request">
+                                    <span data-region="dialogue-button-text">Recusar</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block" data-action="okay-confirm">OK</button>
+                                <button type="button" class="btn btn-secondary btn-block" data-action="cancel-confirm">Cancelar</button>
+                            </div>
+                        </div>
+                        <div class="px-2 pb-2 pt-0" data-region="content-placeholder">
+                            <div class="h-100 d-flex flex-column">
+                                <div class="px-2 pb-2 pt-0 bg-light h-100" style="overflow-y: auto">
+                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                </div>
+                            </div>                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden" aria-hidden="true" data-region="view-group-info">
+                    <div class="pt-3 h-100 d-flex flex-column" data-region="group-info-content-container" style="overflow-y: auto"></div>
+                </div>                <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview" data-user-id="18191">
+                    <div id="message-drawer-view-overview-container-6388e0736db0b6388e07369ca316" class="d-flex flex-column h-100" style="overflow-y: auto">
+                            
+                            
+                            <div class="section border-0 card" data-region="view-overview-favourites">
+                                <div id="view-overview-favourites-toggle" class="card-header p-0" data-region="toggle">
+                                    <button class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-favourites-target-6388e0736db0b6388e07369ca316" aria-expanded="false" aria-controls="view-overview-favourites-target-6388e0736db0b6388e07369ca316">
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="font-weight-bold">Favoritos</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container" aria-label=" conversações totais">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="18191" id="view-overview-favourites-target-6388e0736db0b6388e07369ca316" aria-labelledby="view-overview-favourites-toggle" data-parent="#message-drawer-view-overview-container-6388e0736db0b6388e07369ca316">
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">Nenhuma conversa favoritada</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                            <div class="section border-0 card" data-region="view-overview-group-messages">
+                                <div id="view-overview-group-messages-toggle" class="card-header p-0" data-region="toggle">
+                                    <button class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-group-messages-target-6388e0736db0b6388e07369ca316" aria-expanded="false" aria-controls="view-overview-group-messages-target-6388e0736db0b6388e07369ca316">
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="font-weight-bold">Grupo</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container" aria-label=" conversações totais">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="18191" id="view-overview-group-messages-target-6388e0736db0b6388e07369ca316" aria-labelledby="view-overview-group-messages-toggle" data-parent="#message-drawer-view-overview-container-6388e0736db0b6388e07369ca316">
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">Nenhuma conversa em grupo</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                            <div class="section border-0 card" data-region="view-overview-messages">
+                                <div id="view-overview-messages-toggle" class="card-header p-0" data-region="toggle">
+                                    <button class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-messages-target-6388e0736db0b6388e07369ca316" aria-expanded="false" aria-controls="view-overview-messages-target-6388e0736db0b6388e07369ca316">
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="font-weight-bold">Privado</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container" aria-label=" conversações totais">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="18191" id="view-overview-messages-target-6388e0736db0b6388e07369ca316" aria-labelledby="view-overview-messages-toggle" data-parent="#message-drawer-view-overview-container-6388e0736db0b6388e07369ca316">
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">Nenhuma conversa privada</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div data-region="view-search" aria-hidden="true" class="h-100 hidden" data-user-id="18191" data-users-offset="0" data-messages-offset="0" style="overflow-y: auto">
+                    <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
+                        
+                        <div class="d-flex flex-column">
+                            <div class="mb-3 bg-white" data-region="all-contacts-container">
+                                <div data-region="contacts-container" class="pt-2">
+                                    <h4 class="h6 px-2">Contatos</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div data-region="non-contacts-container" class="pt-2 border-top">
+                                    <h4 class="h6 px-2">Não contatos</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-users">
+                                        <span data-region="button-text">Carregue mais</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="bg-white" data-region="messages-container">
+                                <h4 class="h6 px-2 pt-2">Mensagens</h4>
+                                <div class="list-group" data-region="list"></div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-messages">
+                                        <span data-region="button-text">Carregue mais</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="hidden p-3 text-center" data-region="no-results-container">Nenhum resultado</p>
+                        </div>                    </div>
+                    <div class="hidden" data-region="loading-placeholder">
+                        <div class="text-center pt-3 icon-size-4"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</div>
+                    </div>
+                    <div class="p-3 text-center" data-region="empty-message-container">
+                        <p>Pesquisar pessoas e mensagens</p>
+                    </div>
+                </div>                
+                <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
+                    <div class="hidden" data-region="content-container">
+                        
+                        <div data-region="settings" class="p-3">
+                            <h3 class="h6 font-weight-bold">Privacidade</h3>
+                            <p>Você pode restringir quem pode enviar uma mensagem para você</p>
+                            <div data-preference="blocknoncontacts" class="mb-3">
+                                <fieldset>
+                                    <legend class="sr-only">Aceitar mensagens de:</legend>
+                                        <div class="custom-control custom-radio mb-2">
+                                            <input type="radio" name="message_blocknoncontacts" class="custom-control-input" id="block-noncontacts-6388e0736db0b6388e07369ca316-1" value="1">
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-6388e0736db0b6388e07369ca316-1">
+                                                Apenas meus contatos
+                                            </label>
+                                        </div>
+                                        <div class="custom-control custom-radio mb-2">
+                                            <input type="radio" name="message_blocknoncontacts" class="custom-control-input" id="block-noncontacts-6388e0736db0b6388e07369ca316-0" value="0">
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-6388e0736db0b6388e07369ca316-0">
+                                                Meus contatos e qualquer pessoa em meus cursos
+                                            </label>
+                                        </div>
+                                </fieldset>
+                            </div>
+                        
+                            <div class="hidden" data-region="notification-preference-container">
+                                <h3 class="mb-2 mt-4 h6 font-weight-bold">Preferências de notificação</h3>
+                            </div>
+                        
+                            <h3 class="mb-2 mt-4 h6 font-weight-bold">Geral</h3>
+                            <div data-preference="entertosend">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="enter-to-send-6388e0736db0b6388e07369ca316">
+                                    <label class="custom-control-label" for="enter-to-send-6388e0736db0b6388e07369ca316">
+                                        Use 'enter' para enviar
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-region="placeholder-container">
+                        
+                        <div class="d-flex flex-column p-3">
+                            <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
+                            <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-50 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-4">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-25 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                        </div>                    </div>
+                </div>            </div>
+            <div class="footer-container position-relative" data-region="footer-container">
+                
+                <div class="hidden border-top bg-white position-relative" aria-hidden="true" data-region="view-conversation" data-enter-to-send="0">
+                    <div class="hidden p-sm-2" data-region="content-messages-footer-container">
+                        
+                        <div class="d-flex mt-sm-1">
+                            <textarea dir="auto" data-region="send-message-txt" class="form-control bg-light" rows="3" data-auto-rows="" data-min-rows="3" data-max-rows="5" aria-label="Escrever uma mensagem..." placeholder="Escrever uma mensagem..." style="resize: none"></textarea>
+                        
+                            <div class="position-relative d-flex flex-column">
+                                <button class="btn btn-link btn-icon icon-size-3 ml-1 mt-auto" aria-label="Enviar mensagem" data-action="send-message">
+                                    <span data-region="send-icon-container"><i class="icon fa fa-paper-plane fa-fw " aria-hidden="true"></i></span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden p-sm-2" data-region="content-messages-footer-edit-mode-container">
+                        
+                        <div class="d-flex p-3 justify-content-end">
+                            <button class="btn btn-link btn-icon my-1 icon-size-4" data-action="delete-selected-messages" data-toggle="tooltip" data-placement="top" title="Apagar mensagens selecionadas">
+                                <span data-region="icon-container"><i class="icon fa fa-trash fa-fw " aria-hidden="true"></i></span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                                <span class="sr-only">Apagar mensagens selecionadas</span>
+                            </button>
+                        </div>                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-contact-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p data-region="title"></p>
+                            <p class="text-muted" data-region="text"></p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-add-contact">
+                                <span data-region="dialogue-button-text">Enviar solicitação de contato</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-unblock-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">Você bloqueou este usuário.</p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
+                                <span data-region="dialogue-button-text">Desbloquear usuário</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Carregando" aria-label="Carregando"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-unable-to-message">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">Você não consegue enviar mensagens para esse usuário</p>
+                        </div>
+                    </div>
+                    <div class="p-sm-2" data-region="placeholder-container">
+                        <div class="d-flex">
+                            <div class="bg-pulse-grey w-100" style="height: 80px"></div>
+                            <div class="mx-2 mb-2 align-self-end bg-pulse-grey" style="height: 20px; width: 20px"></div>
+                        </div>                    </div>
+                    <div class="hidden position-absolute" data-region="confirm-dialogue-container" style="top: -1px; bottom: 0; right: 0; left: 0; background: rgba(0,0,0,0.3);"></div>
+                </div>                    <div data-region="view-overview" class="text-center">
+                        <a href="https://ead.graduacao.fecap.br/message/index.php">
+                            Mostrar todos
+                        </a>
+                    </div>
+            </div>
+        </div>
+
+</div>
+    <div id="goto-top-link">
+        <a class="btn btn-light" role="button" href="#">
+            <i class="icon fa fa-arrow-up fa-fw " title="Ir para o topo" aria-label="Ir para o topo"></i>
+        </a>
+    </div>
+    <footer id="page-footer" class="py-3 bg-dark text-light">
+        <div class="container">
+            <div id="course-footer"></div>
+    
+    
+            <div class="logininfo">Você acessou como <a href="https://ead.graduacao.fecap.br/user/profile.php?id=18191" title="Ver perfil">Raphael Clerici Drukier</a> (<a href="https://ead.graduacao.fecap.br/login/logout.php?sesskey=SAS6GkvVOr">Sair</a>)</div>
+            <div class="tool_usertours-resettourcontainer"></div>
+            <div class="homelink"><a href="https://ead.graduacao.fecap.br/course/view.php?id=26362">Análise Dem. Fin.</a></div>
+            <nav class="nav navbar-nav d-md-none" aria-label="Menu personalizado">
+                    <ul class="list-unstyled pt-3">
+                                        <li><a href="#" title="Idioma">Português - Brasil ‎(pt_br)‎</a></li>
+                                    <li>
+                                        <ul class="list-unstyled ml-3">
+                                                            <li><a href="https://ead.graduacao.fecap.br/mod/assign/view.php?id=423370&amp;rownum=0&amp;useridlistid=6388e0735a57a380604714&amp;action&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                            <li><a href="https://ead.graduacao.fecap.br/mod/assign/view.php?id=423370&amp;rownum=0&amp;useridlistid=6388e0735a57a380604714&amp;action&amp;lang=pt_br" title="Português - Brasil ‎(pt_br)‎">Português - Brasil ‎(pt_br)‎</a></li>
+                                        </ul>
+                                    </li>
+                    </ul>
+            </nav>
+            <div class="tool_dataprivacy"><a href="https://ead.graduacao.fecap.br/admin/tool/dataprivacy/summary.php">Resumo de retenção de dados</a></div><a href="https://download.moodle.org/mobile?version=2020061501.03&amp;lang=pt_br&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Obter o aplicativo para dispositivos móveis</a><div class="performanceinfo siteinfo container-fluid px-md-0 overflow-auto mt-3"><ul class="list-unstyled row mx-md-0"><li class="timeused col-sm-4">0.261657 secs</li> <li class="memoryused col-sm-4">RAM: 7.5Mb</li> <li class="memoryused col-sm-4">RAM peak: 7.5Mb</li> </ul><ul class="list-unstyled row mx-md-0"><li class="included col-sm-4">Included 739 files</li> <li class="contextswithfilters col-sm-4">Contexts for which filters were loaded: 0 </li> <li class="filterscreated col-sm-4">Filters created: 3 </li> <li class="textsfiltered col-sm-4">Pieces of content filtered: 0 </li> <li class="stringsfiltered col-sm-4">Strings filtered: 0 </li> <li class="langcountgetstring col-sm-4">get_string calls: 310 </li> <li class="dbqueries col-sm-4">DB reads/writes: 451/1</li> <li class="dbtime col-sm-4">DB queries time: 0.13164 secs</li> <li class="posixtimes col-sm-4">ticks: 26 user: 12sys: 3 cuser: 0 csys: 0</li> <li class="serverload col-sm-4">Load average: 0.47</li> <li class="serverload col-sm-4"><div class="sessionsize">Session (core\session\file): 4.4Kb</div></li></ul><table class="cachesused table table-dark table-sm w-auto table-bordered">
+<thead>
+<tr>
+<th class="header c0" style="text-align:left;" scope="col">Mode</th>
+<th class="header c1" style="text-align:left;" scope="col">Cache item</th>
+<th class="header c2" style="text-align:left;" scope="col">Static</th>
+<th class="header c3" style="text-align:right;" scope="col">H</th>
+<th class="header c4" style="text-align:right;" scope="col">M</th>
+<th class="header c5" style="text-align:left;" scope="col">Armazenamento principal</th>
+<th class="header c6" style="text-align:right;" scope="col">H</th>
+<th class="header c7" style="text-align:right;" scope="col">M</th>
+<th class="header c8 lastcol" style="text-align:right;" scope="col">S</th>
+</tr>
+</thead>
+<tbody><tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/capabilities</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">573</td>
+<td class="hihits cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="session cache">Ses</span></td>
+<td class="cell c1" style="text-align:left;">core/coursecat</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">3</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">4</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/coursecattree</td>
+<td class="lowhits bg-warning text-dark cell c2" style="text-align:left;">** static accel. **</td>
+<td class="lowhits bg-warning text-dark cell c3" style="text-align:right;">2</td>
+<td class="lowhits bg-warning text-dark cell c4" style="text-align:right;">3</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">3</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">2</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/coursecompletion</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">5</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">5</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">5</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/coursemodinfo</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">4</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">2</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/databasemeta</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">3</td>
+<td class="hihits cell c4" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">2</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/fontawesomeiconmapping</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/langmenu</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">3</td>
+<td class="hihits cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/message_processors_enabled</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="session cache">Ses</span></td>
+<td class="cell c1" style="text-align:left;">core/navigation_expandcourse</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="lowhits bg-warning text-dark cell c5" style="text-align:left;">Dummy store</td>
+<td class="lowhits bg-warning text-dark cell c6" style="text-align:right;">1</td>
+<td class="lowhits bg-warning text-dark cell c7" style="text-align:right;">11</td>
+<td class="lowhits bg-warning text-dark cell c8 lastcol" style="text-align:right;">12</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/observers</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">2</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/plugin_functions</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">17</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">17</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">17</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/plugin_manager</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">2</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/roledefs</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">3</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">3</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">3</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/string</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">292</td>
+<td class="hihits cell c4" style="text-align:right;">24</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">24</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">24</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="request cache">Req</span></td>
+<td class="cell c1" style="text-align:left;">core/suspended_userids</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">Dummy store</td>
+<td class="hihits cell c6" style="text-align:right;">2</td>
+<td class="hihits cell c7" style="text-align:right;">1</td>
+<td class="hihits cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/user_group_groupings</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">1</td>
+<td class="hihits cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/yuimodules</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">3</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">3</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">tool_monitor/eventsubscriptions</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">2</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">2</td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">tool_usertours/tourdata</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">Dummy store</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8 lastcol" style="text-align:right;">1</td>
+</tr>
+</tbody>
+</table>
+<table class="cachesused table table-dark table-sm w-auto table-bordered">
+<thead>
+<tr>
+<th class="header c0" style="text-align:left;" scope="col">Nome do armazenamento</th>
+<th class="header c1" style="text-align:left;" scope="col">Armazenamento de cache</th>
+<th class="header c2" style="text-align:right;" scope="col">H</th>
+<th class="header c3" style="text-align:right;" scope="col">M</th>
+<th class="header c4 lastcol" style="text-align:right;" scope="col">S</th>
+</tr>
+</thead>
+<tbody><tr class="">
+<td class="hihits cell c0" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c1" style="text-align:left;"></td>
+<td class="hihits cell c2" style="text-align:right;">874</td>
+<td class="hihits cell c3" style="text-align:right;">64</td>
+<td class="hihits cell c4 lastcol" style="text-align:right;">0</td>
+</tr>
+<tr class="">
+<td class="lowhits bg-warning text-dark cell c0" style="text-align:left;">Dummy store</td>
+<td class="lowhits bg-warning text-dark cell c1" style="text-align:left;">cachestore_dummy</td>
+<td class="lowhits bg-warning text-dark cell c2" style="text-align:right;">3</td>
+<td class="lowhits bg-warning text-dark cell c3" style="text-align:right;">88</td>
+<td class="lowhits bg-warning text-dark cell c4 lastcol" style="text-align:right;">87</td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style="text-align:left;">Total</td>
+<td class="cell c1" style="text-align:left;"></td>
+<td class="cell c2" style="text-align:right;">877</td>
+<td class="cell c3" style="text-align:right;">152</td>
+<td class="cell c4 lastcol" style="text-align:right;">87</td>
+</tr>
+</tbody>
+</table>
+</div>
+            <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://ead.graduacao.fecap.br/lib/requirejs.php/1668690655/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://ead.graduacao.fecap.br/lib/javascript.php/1668690655/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://ead.graduacao.fecap.br/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('pt-BR', {
+  "Audio Player": "Reprodutor de áudio",
+  "Video Player": "Reprodutor de vídeo",
+  "Play": "Tocar",
+  "Pause": "Pausar",
+  "Replay": "Tocar novamente",
+  "Current Time": "Tempo",
+  "Duration": "Duração",
+  "Remaining Time": "Tempo Restante",
+  "Stream Type": "Tipo de Stream",
+  "LIVE": "AO VIVO",
+  "Loaded": "Carregado",
+  "Progress": "Progresso",
+  "Progress Bar": "Barra de progresso",
+  "progress bar timing: currentTime={1} duration={2}": "{1} de {2}",
+  "Fullscreen": "Tela Cheia",
+  "Non-Fullscreen": "Tela Normal",
+  "Mute": "Mudo",
+  "Unmute": "Habilitar Som",
+  "Playback Rate": "Velocidade",
+  "Subtitles": "Legendas",
+  "subtitles off": "Sem Legendas",
+  "Captions": "Anotações",
+  "captions off": "Sem Anotações",
+  "Chapters": "Capítulos",
+  "Descriptions": "Descrições",
+  "descriptions off": "sem descrições",
+  "Audio Track": "Faixa de áudio",
+  "Volume Level": "Nível de volume",
+  "You aborted the media playback": "Você parou a execução do vídeo.",
+  "A network error caused the media download to fail part-way.": "Um erro na rede causou falha durante o download da mídia.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "A mídia não pode ser carregada, por uma falha de rede ou servidor ou o formato não é suportado.",
+  "No compatible source was found for this media.": "Nenhuma fonte foi encontrada para esta mídia.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "A reprodução foi interrompida devido à um problema de mídia corrompida ou porque a mídia utiliza funções que seu navegador não suporta.",
+  "The media is encrypted and we do not have the keys to decrypt it.": "A mídia está criptografada e não temos as chaves para descriptografar.",
+  "Play Video": "Tocar Vídeo",
+  "Close": "Fechar",
+  "Close Modal Dialog": "Fechar Diálogo Modal",
+  "Modal Window": "Janela Modal",
+  "This is a modal window": "Isso é uma janela-modal",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "Esta janela pode ser fechada pressionando a tecla de Escape.",
+  ", opens captions settings dialog": ", abre as configurações de legendas de comentários",
+  ", opens subtitles settings dialog": ", abre as configurações de legendas",
+  ", opens descriptions settings dialog": ", abre as configurações",
+  ", selected": ", selecionada",
+  "captions settings": "configurações de legendas de comentários",
+  "subtitles settings": "configurações de legendas",
+  "descriptions settings": "configurações das descrições",
+  "Text": "Texto",
+  "White": "Branco",
+  "Black": "Preto",
+  "Red": "Vermelho",
+  "Green": "Verde",
+  "Blue": "Azul",
+  "Yellow": "Amarelo",
+  "Magenta": "Magenta",
+  "Cyan": "Ciano",
+  "Background": "Plano-de-Fundo",
+  "Window": "Janela",
+  "Transparent": "Transparente",
+  "Semi-Transparent": "Semi-Transparente",
+  "Opaque": "Opaco",
+  "Font Size": "Tamanho da Fonte",
+  "Text Edge Style": "Estilo da Borda",
+  "None": "Nenhum",
+  "Raised": "Elevado",
+  "Depressed": "Acachapado",
+  "Uniform": "Uniforme",
+  "Dropshadow": "Sombra de projeção",
+  "Font Family": "Família da Fonte",
+  "Proportional Sans-Serif": "Sans-Serif(Sem serifa) Proporcional",
+  "Monospace Sans-Serif": "Sans-Serif(Sem serifa) Monoespaçada",
+  "Proportional Serif": "Serifa Proporcional",
+  "Monospace Serif": "Serifa Monoespaçada",
+  "Casual": "Casual",
+  "Script": "Script",
+  "Small Caps": "Maiúsculas Pequenas",
+  "Reset": "Redefinir",
+  "restore all settings to the default values": "restaurar todas as configurações aos valores padrão",
+  "Done": "Salvar",
+  "Caption Settings Dialog": "Caíxa-de-Diálogo das configurações de Legendas",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Iniciando a Janela-de-Diálogo. Pressionar Escape irá cancelar e fechar a janela.",
+  "End of dialog window.": "Fim da Janela-de-Diálogo",
+  "{1} is loading.": "{1} está carregando."
+});
+
+    });
+});;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select6388e07369ca33', [CustomEvents.events.accessibleChange]);
+    $('#single_select6388e07369ca33').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f6388e07369ca32').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-6388e0736bda06388e07369ca36');
+    Popover.init(toggle);
+});
+;
+
+        require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+            CustomEvents.define('#jump-to-activity', [CustomEvents.events.accessibleChange]);
+            $('#jump-to-activity').on(CustomEvents.events.accessibleChange, function() {
+                if (!$(this).val()) {
+                    return false;
+                }
+                $('#url_select_f6388e07369ca315').submit();
+            });
+        });
+    ;
+
+require(['jquery', 'core_message/message_drawer'], function($, MessageDrawer) {
+    var root = $('#message-drawer-6388e0736db0b6388e07369ca316');
+    MessageDrawer.init(root, '6388e0736db0b6388e07369ca316', false);
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select6388e07369ca318', [CustomEvents.events.accessibleChange]);
+    $('#single_select6388e07369ca318').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f6388e07369ca317').submit();
+        }
+    });
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+    M.util.js_complete('theme_boost/loader');
+});
+
+M.util.js_pending('theme_boost/drawer');
+require(['theme_boost/drawer'], function(drawer) {
+    drawer.init();
+    M.util.js_complete('theme_boost/drawer');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(574211, [], true); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.yui.add_module({"core_comment":{"name":"core_comment","fullpath":"https:\/\/ead.graduacao.fecap.br\/lib\/javascript.php\/1668690655\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}});
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","cancel":"Cancelar","addcomment":"Adicionar um coment\u00e1rio...","comments":"Coment\u00e1rios","commentscount":"Coment\u00e1rios ({$a})","commentsrequirelogin":"Voc\u00ea precisa fazer o login para ler os coment\u00e1rios.","deletecommentbyon":"Exclu\u00edr o coment\u00e1rio publicado por {$a->user} em {$a->time}","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido","file":"Arquivo","url":"URL"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando.","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"Existem {$a} links para esse arquivo","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"},"debug":{"debuginfo":"Informa\u00e7\u00f5es de depura\u00e7\u00e3o","line":"Linha","stacktrace":"Rastreamento de pilha"},"langconfig":{"labelsep":":&nbsp;"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"pt-br"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random6388e07369ca319'); Y.on('domready', function() {  M.util.js_pending('random6388e07369ca319'); Y.use('core_comment', function(Y) { M.core_comment.init(Y, {"client_id":"6388e073727a3","commentarea":"submission_comments","itemid":"554353","page":0,"courseid":"26362","contextid":574211,"component":"assignsubmission_comments","notoggle":false,"autostart":false});  M.util.js_complete('random6388e07369ca319'); });  M.util.js_complete('random6388e07369ca319'); });
+ M.util.js_pending('random6388e07369ca320'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6388e07369ca320'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer>
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+
+</body></html>
